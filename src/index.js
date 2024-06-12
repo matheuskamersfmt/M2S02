@@ -4,6 +4,7 @@ import agruparPorCategoria from "./EX3.js";
 import contador from "./EX4.js";
 import calcularProduto from "./EX5.js";
 import transformarArray from "./EX6.js";
+import compor from "./EX7.js";
 
 // Exercício 1
 let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -53,3 +54,15 @@ function dobrar(numero) {
     return numero * 2.
 }
 console.log(transformarArray(numeros3, dobrar));
+
+// Exercício 7
+function somar1(x) {
+    return x + 1;
+}
+
+function multiplicar2(x) {
+    return x * 2;
+}
+
+let funcaoComposta = compor(somar1, multiplicar2);
+console.log(funcaoComposta(5));
