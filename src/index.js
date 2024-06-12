@@ -3,6 +3,7 @@ import filtrarMaioresDeIdade from "./EX2.js";
 import agruparPorCategoria from "./EX3.js";
 import contador from "./EX4.js";
 import calcularProduto from "./EX5.js";
+import transformarArray from "./EX6.js";
 
 // Exercício 1
 let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -45,3 +46,10 @@ console.log(contador2());
 // Exercício 5
 let numeros2 = [1, 2, 3, 4, 5];
 console.log(calcularProduto(numeros2));
+
+// Exercício 6
+let numeros3 = [1, 2, 3, 4, 5];
+function dobrar(numero) {
+    return numero * 2.
+}
+console.log(transformarArray(numeros3, dobrar));
