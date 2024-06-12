@@ -1,6 +1,7 @@
 import filtrarPares from "./EX1.js";
 import filtrarMaioresDeIdade from "./EX2.js";
 import agruparPorCategoria from "./EX3.js";
+import contador from "./EX4.js";
 
 // Exercício 1
 let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -27,3 +28,15 @@ let produtos = [
 ];
 
 console.log(agruparPorCategoria(produtos));
+
+// Exercício 4
+let contador1 = contador();
+
+console.log(contador1());
+console.log(contador1());
+console.log(contador1());
+
+let contador2 = contador();
+
+console.log(contador2());
+console.log(contador2());
